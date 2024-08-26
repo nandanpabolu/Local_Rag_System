@@ -70,4 +70,4 @@ if prompt := st.chat_input("Question"):
             st.session_state["db"],
         )
         response = st.write_stream(stream)
-        st.session_state.messages.append({"role": "assistant", "content": response})
+        st.session_state.messages.append({"role": "assistant", "c
