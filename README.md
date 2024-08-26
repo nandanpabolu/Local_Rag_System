@@ -96,6 +96,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Built with [Streamlit](https://streamlit.io/), [LangChain](https://langchain.com/), and [Ollama](https://ollama.com/).
 - Special thanks to the open-source community for their invaluable tools and resources.
 
-## Contact
-
-For any questions or feedback, please reach out to [nandanpabolu](mailto:nandanpabolu@example.com).
