@@ -66,4 +66,8 @@ if prompt := st.chat_input("Question"):
         )
         response = st.write_stream(stream)
         
-        # Ensure response is valid b
+        # Ensure response is valid before appending
+        if response and isinstance(response, str):
+            st.session_state.messages.append({"role": "assistant", "content": response})
+        else:
+            st.session_state.messages.append({"role": "assistant", "content": "Unexpected response format"})
